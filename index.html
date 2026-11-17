@@ -4,425 +4,504 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#080817">
-  <title>WOW EXPERIENCE | Bosh sahifa</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#090817">
+  <meta name="description" content="46-umumiy o‘rta ta’lim maktabining rasmiy veb-sayti.">
+  <title>46-MAKTAB | FUTURISTIC</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <div class="background-glow"></div>
-  <div class="stars" id="stars"></div>
+<div class="loader" id="loader">
+  <div class="loader-logo">46</div>
+  <p>FUTURISTIC SCHOOL</p>
+  <div class="loader-bar"></div>
+</div>
 
-  <header class="header">
-    <a href="#" class="logo">WOW<span> EXPERIENCE</span></a>
-    <nav class="nav" id="nav">
-      <a href="#home">Bosh sahifa</a>
-      <a href="#features">Imkoniyatlar</a>
-      <a href="#games">O‘yinlar</a>
-      <a href="#daily">Mukofotlar</a>
-      <a href="#achievements">Yutuqlar</a>
-      <a href="#shop">WOW do‘koni</a>
-      <a href="#avatar">Avatar Studio</a>
-      <a href="#cabinet">Shaxsiy kabinet</a>
-      <a href="#discover">Kashfiyot</a>
+<div class="background">
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+  <div class="orb orb-three"></div>
+  <div class="grid-background"></div>
+</div>
+
+<header class="header">
+  <div class="container nav-container">
+
+    <a href="#home" class="brand">
+      <div class="brand-logo">46</div>
+      <div>
+        <strong>46-MAKTAB</strong>
+        <span>FUTURISTIC SCHOOL</span>
+      </div>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <nav class="navigation" id="navigation">
+      <a href="#home" class="active">Bosh sahifa</a>
+      <a href="#about">Maktab haqida</a>
+      <a href="#management">Rahbariyat</a>
+      <a href="#teachers">Ustozlar</a>
+      <a href="#education">Ta’lim</a>
+      <a href="#news">Yangiliklar</a>
+      <a href="#gallery">Galereya</a>
+      <a href="#contact">Aloqa</a>
     </nav>
-    <button class="menu-btn" id="menuBtn" aria-label="Menyu">☰</button>
-  </header>
 
-  <main>
+    <button class="theme-button" id="themeToggle" title="Mavzuni almashtirish">☀</button>
+  </div>
+</header>
 
-    <!-- HOME -->
-    <section class="hero" id="home">
-      <div class="hero-content">
-        <div class="status">
-          <span class="pulse"></span>
-          YANGI TAJRIBA BOSHLANMOQDA
-        </div>
-        <h1>ODDIY DUNYO<br><span class="gradient-text">BILAN CHEKLANMA!</span></h1>
-        <p>Tasavvuringdan ham ajoyib dunyoga xush kelibsan. Bu yerda har bir bosish yangi sarguzasht.</p>
-        <div class="hero-buttons">
-          <a href="#features" class="btn primary">KASHF ETISH ↗</a>
-          <button class="btn secondary" id="surpriseBtn">Meni hayratlantir ✨</button>
-        </div>
-        <div class="hero-stats">
-          <div><strong>∞</strong><small>Imkoniyatlar</small></div>
-          <div><strong>24/7</strong><small>Yangi tajriba</small></div>
-          <div><strong>100%</strong><small>Interaktivlik</small></div>
-        </div>
-      </div>
-      <div class="portal-area">
-        <div class="portal">
-          <div class="portal-ring ring-one"></div>
-          <div class="portal-ring ring-two"></div>
-          <div class="portal-ring ring-three"></div>
-          <div class="portal-core">WOW</div>
-        </div>
-        <span class="portal-label">UNKNOWN DIMENSION</span>
-      </div>
-    </section>
+<main>
 
-    <!-- FEATURES -->
-    <section class="section" id="features">
-      <div class="section-heading">
-        <span class="eyebrow">SENI NIMALAR KUTMOQDA?</span>
-        <h2>CHEKSIZ <span class="gradient-text">IMKONIYATLAR</span></h2>
-        <p>Har bir bo‘limda yangi kashfiyot mavjud.</p>
-      </div>
-      <div class="feature-grid">
-        <article class="feature-card">
-          <div class="card-icon">🌌</div>
-          <h3>Sirli olam</h3>
-          <p>Fantastik muhit va ajoyib animatsiyalar.</p>
-          <a href="#discover">Kashf etish →</a>
-        </article>
-        <article class="feature-card">
-          <div class="card-icon">🧠</div>
-          <h3>Aqlli suhbat</h3>
-          <p>Interaktiv suhbat oynasida savollar ber.</p>
-          <a href="#discover">Kashf etish →</a>
-        </article>
-        <article class="feature-card">
-          <div class="card-icon">🎮</div>
-          <h3>Mini o‘yinlar</h3>
-          <p>Qiziqarli o‘yinlarda o‘zingni sinab ko‘r.</p>
-          <a href="#games">O‘ynash →</a>
-        </article>
-        <article class="feature-card">
-          <div class="card-icon">🎲</div>
-          <h3>Tasodifiy hodisa</h3>
-          <p>Har safar yangi kutilmagan natija.</p>
-          <a href="#discover">Sinab ko‘r →</a>
-        </article>
-        <article class="feature-card">
-          <div class="card-icon">🏆</div>
-          <h3>Yutuqlar</h3>
-          <p>Faolliging orqali yangi natijalarga erish.</p>
-          <a href="#achievements">Ko‘rish →</a>
-        </article>
-        <article class="feature-card">
-          <div class="card-icon">🎨</div>
-          <h3>Shaxsiy dizayn</h3>
-          <p>O‘z avataringni yarat va bezat.</p>
-          <a href="#avatar">Sozlash →</a>
-        </article>
-      </div>
-    </section>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero-container">
 
-    <!-- OLD GAMES -->
-    <section class="section games-section" id="games">
-      <div class="section-heading">
-        <span class="eyebrow">O‘ZINGNI SINAB KO‘R</span>
-        <h2>INTERAKTIV <span class="gradient-text">O‘YINLAR</span></h2>
-        <p>O‘yinlardan birini tanla va boshlagin.</p>
+    <div class="hero-content">
+      <div class="eyebrow">
+        <span class="pulse"></span>
+        SAMARQAND VILOYATI · NUROBOD
       </div>
-      <div class="game-grid">
-        <div class="game-card">
-          <div class="game-art">🔢</div>
-          <h3>Sirli raqam</h3>
-          <p>Yashirin raqamni topa olasanmi?</p>
-          <button class="btn primary game-open" data-game="number">O‘ynash</button>
-        </div>
-        <div class="game-card">
-          <div class="game-art">⚡</div>
-          <h3>Tezkor reaksiya</h3>
-          <p>Qanchalik tez harakat qilasan?</p>
-          <button class="btn primary game-open" data-game="reaction">O‘ynash</button>
-        </div>
-        <div class="game-card">
-          <div class="game-art">🧩</div>
-          <h3>Sirli jumboq</h3>
-          <p>Mantiqiy fikrlashingni sinab ko‘r.</p>
-          <button class="btn primary game-open" data-game="puzzle">O‘ynash</button>
-        </div>
-      </div>
-    </section>
 
-    <!-- DAILY REWARD -->
-    <section class="section" id="daily">
-      <div class="section-heading">
-        <span class="eyebrow">HAR KUNI YANGI IMKONIYAT</span>
-        <h2>KUNLIK <span class="gradient-text">MUKOFOTLAR</span></h2>
-        <p>Har kuni kirib, bepul WOW ballaringni ol!</p>
-      </div>
-      <div class="daily-card">
-        <div class="daily-gift">🎁</div>
-        <h3>Sening bugungi sovg‘ang</h3>
-        <p>Bugungi mukofoting seni kutmoqda.</p>
-        <div class="daily-reward-value">⭐ +25 WOW</div>
-        <button class="btn primary" id="claimDaily">MUKOFOTNI OLISH 🎁</button>
-        <p id="dailyStatus" class="daily-status">Bugungi sovg‘ang hali olinmagan.</p>
-      </div>
-    </section>
+      <h1>
+        KELAJAKNI
+        <span>BILIM BILAN</span>
+        YARATAMIZ!
+      </h1>
 
-    <!-- ACHIEVEMENTS -->
-    <section class="section" id="achievements">
-      <div class="section-heading">
-        <span class="eyebrow">SENING NATIJALARING</span>
-        <h2>YUTUQLAR <span class="gradient-text">MARKAZI</span></h2>
-        <p>Vazifalarni bajar va yangi nishonlarni och!</p>
-      </div>
-      <div class="achievement-grid" id="achievementGrid">
-        <article class="achievement-card" data-achievement="first_discovery">
-          <div class="achievement-icon">🔍</div>
-          <h3>Birinchi kashfiyot</h3>
-          <p>Birinchi sirni och.</p>
-          <span class="achievement-status">🔒 Hali ochilmagan</span>
-        </article>
-        <article class="achievement-card" data-achievement="five_discoveries">
-          <div class="achievement-icon">🌟</div>
-          <h3>Izlanuvchi</h3>
-          <p>5 ta kashfiyot qil.</p>
-          <span class="achievement-status">🔒 Hali ochilmagan</span>
-        </article>
-        <article class="achievement-card" data-achievement="first_game">
-          <div class="achievement-icon">🎮</div>
-          <h3>Birinchi o‘yin</h3>
-          <p>Birinchi o‘yiningni yakunla.</p>
-          <span class="achievement-status">🔒 Hali ochilmagan</span>
-        </article>
-        <article class="achievement-card" data-achievement="five_games">
-          <div class="achievement-icon">🏅</div>
-          <h3>O‘yin ustasi</h3>
-          <p>5 ta o‘yinni yakunla.</p>
-          <span class="achievement-status">🔒 Hali ochilmagan</span>
-        </article>
-        <article class="achievement-card" data-achievement="daily_one">
-          <div class="achievement-icon">🎁</div>
-          <h3>Sovg‘a ovchisi</h3>
-          <p>Birinchi kunlik sovg‘angni ol.</p>
-          <span class="achievement-status">🔒 Hali ochilmagan</span>
-        </article>
-        <article class="achievement-card" data-achievement="points_100">
-          <div class="achievement-icon">💎</div>
-          <h3>Boylik sari</h3>
-          <p>100 ta WOW ball yig‘.</p>
-          <span class="achievement-status">🔒 Hali ochilmagan</span>
-        </article>
-      </div>
-    </section>
+      <p>
+        46-umumiy o‘rta ta’lim maktabi.
+        Bilim, tarbiya va innovatsiyalar sari birgalikda!
+      </p>
 
-    <!-- NEW MINI GAMES -->
-    <section class="section games-section" id="newGames">
-      <div class="section-heading">
-        <span class="eyebrow">YANGI SINOVLAR</span>
-        <h2>YANGI MINI <span class="gradient-text">O‘YINLAR</span></h2>
-        <p>Biliming, xotirang va tezligingni sinab ko‘r!</p>
+      <div class="hero-actions">
+        <a href="#about" class="btn btn-primary">Maktab haqida ↗</a>
+        <a href="https://kundalik.com/" target="_blank" rel="noopener" class="btn btn-glass">Kundalik.com</a>
       </div>
-      <div class="game-grid">
-        <div class="game-card">
-          <div class="game-art">🧠</div>
-          <h3>Xotira sinovi</h3>
-          <p>Bir xil rasmlarni juftlab top.</p>
-          <button class="btn primary game-open" data-game="memory">O‘ynash</button>
+
+      <div class="hero-mini-stats">
+        <div>
+          <strong>500+</strong>
+          <span>O‘quvchi</span>
         </div>
-        <div class="game-card">
-          <div class="game-art">➗</div>
-          <h3>Matematik tezlik</h3>
-          <p>Misollarni imkon qadar tez yech.</p>
-          <button class="btn primary game-open" data-game="math">O‘ynash</button>
+        <div>
+          <strong>70+</strong>
+          <span>Ustoz</span>
         </div>
-        <div class="game-card">
-          <div class="game-art">🔤</div>
-          <h3>So‘z topish</h3>
-          <p>Aralash harflardan so‘zni top.</p>
-          <button class="btn primary game-open" data-game="word">O‘ynash</button>
+        <div>
+          <strong>46</strong>
+          <span>Maktab</span>
         </div>
       </div>
-    </section>
-
-    <!-- WOW SHOP -->
-    <section class="section" id="shop">
-      <div class="section-heading">
-        <span class="eyebrow">BALLARINGNI ISHLAT</span>
-        <h2>WOW <span class="gradient-text">DO‘KONI</span></h2>
-        <p>Yig‘gan ballaringga profiling uchun bezaklar ol.</p>
-      </div>
-      <div class="shop-balance">
-        <span>💰 Sening balansing:</span>
-        <strong id="shopBalance">0 ⭐</strong>
-      </div>
-      <div class="shop-grid">
-        <article class="shop-item" data-item="gold_frame">
-          <div class="shop-item-icon">🟡</div>
-          <h3>Oltin ramka</h3>
-          <p>Profiling uchun oltin bezak.</p>
-          <strong>50 ⭐</strong>
-          <button class="btn primary shop-buy" data-item="gold_frame" data-price="50">Sotib olish</button>
-          <span class="shop-item-status" id="shopStatus-gold_frame"></span>
-        </article>
-        <article class="shop-item" data-item="diamond_frame">
-          <div class="shop-item-icon">💎</div>
-          <h3>Olmos ramka</h3>
-          <p>Maxsus olmos uslubidagi bezak.</p>
-          <strong>100 ⭐</strong>
-          <button class="btn primary shop-buy" data-item="diamond_frame" data-price="100">Sotib olish</button>
-          <span class="shop-item-status" id="shopStatus-diamond_frame"></span>
-        </article>
-        <article class="shop-item" data-item="crown">
-          <div class="shop-item-icon">👑</div>
-          <h3>Qirollik toji</h3>
-          <p>Avataringga toj qo‘sh.</p>
-          <strong>75 ⭐</strong>
-          <button class="btn primary shop-buy" data-item="crown" data-price="75">Sotib olish</button>
-          <span class="shop-item-status" id="shopStatus-crown"></span>
-        </article>
-        <article class="shop-item" data-item="neon">
-          <div class="shop-item-icon">🌈</div>
-          <h3>Neon effekt</h3>
-          <p>Profilingga yorqin uslub.</p>
-          <strong>125 ⭐</strong>
-          <button class="btn primary shop-buy" data-item="neon" data-price="125">Sotib olish</button>
-          <span class="shop-item-status" id="shopStatus-neon"></span>
-        </article>
-      </div>
-      <p class="shop-note">Do‘kondagi buyumlar virtual bezaklardir. Haqiqiy pul ishlatilmaydi.</p>
-    </section>
-
-    <!-- AVATAR STUDIO -->
-    <section class="section avatar-section" id="avatar">
-      <div class="section-heading">
-        <span class="eyebrow">SENING VIRTUAL OLAMING</span>
-        <h2>AVATAR <span class="gradient-text">STUDIO</span></h2>
-        <p>O‘z qahramoningni yarat. Unga nom ber va saqla!</p>
-      </div>
-      <div class="avatar-studio">
-        <div class="avatar-preview">
-          <span class="avatar-preview-label">SENING QAHRAMONING</span>
-          <div class="avatar-circle" id="avatarPreview">
-            <span id="avatarFace">🧑‍🚀</span>
-          </div>
-          <h3 id="avatarPreviewName">Yangi qahramon</h3>
-          <p id="avatarPreviewColor">Binafsha rang</p>
-          <div class="avatar-level">⭐ LEVEL 1</div>
-        </div>
-        <div class="avatar-controls">
-          <h3>Qahramon yaratish</h3>
-          <label for="avatarName">Avatar nomi</label>
-          <input type="text" id="avatarName" class="avatar-input" maxlength="20" placeholder="Ismingni yoz...">
-          <label>Qahramonni tanla</label>
-          <div class="avatar-options" id="avatarOptions">
-            <button class="avatar-option selected" data-avatar="🧑‍🚀">🧑‍🚀</button>
-            <button class="avatar-option" data-avatar="🦸">🦸</button>
-            <button class="avatar-option" data-avatar="🥷">🥷</button>
-            <button class="avatar-option" data-avatar="🤖">🤖</button>
-            <button class="avatar-option" data-avatar="👽">👽</button>
-            <button class="avatar-option" data-avatar="🧙">🧙</button>
-            <button class="avatar-option" data-avatar="🧛">🧛</button>
-            <button class="avatar-option" data-avatar="🧑‍🎤">🧑‍🎤</button>
-            <button class="avatar-option" data-avatar="🧑‍💻">🧑‍💻</button>
-            <button class="avatar-option" data-avatar="🦊">🦊</button>
-            <button class="avatar-option" data-avatar="🐉">🐉</button>
-            <button class="avatar-option" data-avatar="👑">👑</button>
-          </div>
-          <label>Avatar rangi</label>
-          <div class="avatar-colors" id="avatarColors">
-            <button class="color-option selected" data-color="#8b5cff" data-name="Binafsha" style="background:#8b5cff"></button>
-            <button class="color-option" data-color="#20c9ff" data-name="Moviy" style="background:#20c9ff"></button>
-            <button class="color-option" data-color="#ff55c8" data-name="Pushti" style="background:#ff55c8"></button>
-            <button class="color-option" data-color="#36db9b" data-name="Yashil" style="background:#36db9b"></button>
-            <button class="color-option" data-color="#ffb547" data-name="Oltin" style="background:#ffb547"></button>
-            <button class="color-option" data-color="#ff5757" data-name="Qizil" style="background:#ff5757"></button>
-          </div>
-          <div class="avatar-actions">
-            <button class="btn secondary" id="randomAvatar">🎲 Tasodifiy</button>
-            <div class="avatar-upload">
-              <h3>📷 O‘z rasmingni yukla</h3>
-              <label for="avatarImageInput" class="upload-button">📁 Rasm tanlash</label>
-              <input type="file" id="avatarImageInput" accept="image/png, image/jpeg, image/webp" hidden>
-              <button type="button" id="removeAvatarImage" class="remove-image-btn">🗑️ Rasmni o‘chirish</button>
-              <p id="avatarUploadStatus">Hozircha rasm tanlanmagan</p>
-            </div>
-            <button class="btn primary" id="saveAvatar">💾 SAQLASH</button>
-          </div>
-          <p class="avatar-save-status" id="avatarStatus">Hali avatar saqlanmagan.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- PERSONAL CABINET -->
-    <section class="section cabinet-section" id="cabinet">
-      <div class="section-heading">
-        <span class="eyebrow">YOUR PERSONAL SPACE</span>
-        <h2>SHAXSIY <span class="gradient-text">KABINET</span></h2>
-        <p>O‘z profiling, ballaring va yutuqlaringni ko‘r.</p>
-      </div>
-      <div class="cabinet-card">
-        <div class="cabinet-profile">
-          <div class="cabinet-avatar" id="cabinetAvatar">😊</div>
-          <div class="cabinet-user-info">
-            <h3 id="cabinetName">Mehmon</h3>
-            <p>WOW EXPERIENCE foydalanuvchisi</p>
-            <span class="cabinet-level" id="cabinetLevel">⭐ LEVEL 1</span>
-          </div>
-        </div>
-        <div class="cabinet-stats">
-          <div class="cabinet-stat">
-            <span>⭐</span><strong id="cabinetPoints">0</strong><small>WOW ballari</small>
-          </div>
-          <div class="cabinet-stat">
-            <span>🏆</span><strong id="cabinetAchievements">0</strong><small>Yutuqlar</small>
-          </div>
-          <div class="cabinet-stat">
-            <span>🎮</span><strong id="cabinetGames">0</strong><small>O‘yinlar</small>
-          </div>
-        </div>
-        <div class="cabinet-actions">
-          <button class="btn primary" id="editCabinet">✏️ Profilni yangilash</button>
-          <button class="btn secondary" id="cabinetAvatarBtn">🎨 Avatar Studio</button>
-        </div>
-        <p id="cabinetStatus">Avatar Studio orqali qahramoningni yarat!</p>
-      </div>
-    </section>
-
-    <!-- DISCOVERY -->
-    <section class="section discovery" id="discover">
-      <div class="section-heading">
-        <span class="eyebrow">BU YERDA HAMMASI MUMKIN</span>
-        <h2>YANGI NARSANI <span class="gradient-text">KASHF ET</span></h2>
-      </div>
-      <div class="discovery-panel">
-        <div class="discovery-symbol">✦</div>
-        <h3>Bugun seni nima kutmoqda?</h3>
-        <p id="discoveryText">Tugmani bos va sirli xabarni kashf et.</p>
-        <button class="btn primary" id="discoverBtn">SIRNI OCHISH ✨</button>
-      </div>
-      <div class="chat-panel">
-        <h3>💬 WOW suhbat yordamchisi</h3>
-        <p>O‘zingni qiziqtirgan savolni yoz.</p>
-        <div class="chat-messages" id="chatMessages">
-          <div class="message bot-message">Salom! WOW EXPERIENCE olamiga xush kelibsan. 😊</div>
-        </div>
-        <form id="chatForm" class="chat-form">
-          <input id="chatInput" type="text" placeholder="Xabaringni yoz..." autocomplete="off">
-          <button class="btn primary" type="submit">Yuborish</button>
-        </form>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <a href="#" class="logo">WOW<span> EXPERIENCE</span></a>
-    <p>Oddiylikdan tashqaridagi tajriba.</p>
-    <p>© 2026 WOW EXPERIENCE. Barcha huquqlar himoyalangan.</p>
-    <p>Sayt yaratuvchisi: Nurjovov Sayilxon</p>
-  </footer>
-
-  <!-- GAME MODAL -->
-  <div class="modal" id="gameModal">
-    <div class="modal-box">
-      <button class="modal-close" id="modalClose">✕</button>
-      <h2 id="modalTitle">O‘yin</h2>
-      <div id="gameContent"></div>
     </div>
+
+    <div class="hero-visual school-visual">
+  <div class="school-glow"></div>
+
+  <div class="school-scene">
+    <div class="school-sky"></div>
+
+    <div class="school-building">
+      <div class="school-roof"></div>
+
+      <div class="school-main">
+        <div class="school-sign">46-MAKTAB</div>
+
+        <div class="school-windows">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="school-door"></div>
+      </div>
+
+      <div class="school-side"></div>
+      <div class="school-ground"></div>
+    </div>
+
+    <div class="school-label">FUTURISTIC SCHOOL</div>
+    <div class="school-light light-one"></div>
+    <div class="school-light light-two"></div>
+    <div class="school-light light-three"></div>
+  </div>
+</div>
+
   </div>
 
-  <div class="toast" id="toast"></div>
-  <button class="top-btn" id="topBtn" aria-label="Yuqoriga">↑</button>
+  <div class="hero-bottom">
+    <span>SCROLL TO EXPLORE</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<!-- STATISTICS -->
+<section class="stats-section">
+  <div class="container stats-grid">
+    <div class="stat-box">
+      <span class="stat-icon">🎓</span>
+      <strong class="counter" data-target="500">0</strong>
+      <p>Dan ziyod o‘quvchi</p>
+    </div>
+
+    <div class="stat-box">
+      <span class="stat-icon">👨‍🏫</span>
+      <strong class="counter" data-target="70">0</strong>
+      <p>Ga yaqin ustoz</p>
+    </div>
+
+    <div class="stat-box">
+      <span class="stat-icon">🏆</span>
+      <strong>YUTUQLAR</strong>
+      <p>Bilim va natijalar</p>
+    </div>
+
+    <div class="stat-box">
+      <span class="stat-icon">🚀</span>
+      <strong>KELAJAK</strong>
+      <p>Yangi imkoniyatlar</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+
+    <div class="section-title">
+      <span>01 / ABOUT SCHOOL</span>
+      <h2>Bizning <span>maktab</span></h2>
+      <p>46-MAKTAB haqida qisqacha ma’lumot</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-visual">
+        <div class="about-orbit"></div>
+        <div class="about-emblem">
+          <strong>46</strong>
+          <span>MAKTAB</span>
+          <small>KNOWLEDGE · FUTURE</small>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <span class="small-label">BIZNING MAQSADIMIZ</span>
+        <h3>Har bir o‘quvchida katta imkoniyat bor!</h3>
+
+        <p>
+          46-umumiy o‘rta ta’lim maktabi Samarqand viloyati,
+          Nurobod tumani, Jarquduq qishlog‘ida joylashgan.
+        </p>
+
+        <p>
+          Maktabimizda yosh avlodga sifatli ta’lim va tarbiya
+          berish, ularning bilimlari, qobiliyatlari va
+          salohiyatini rivojlantirishga alohida e’tibor qaratiladi.
+        </p>
+
+        <div class="feature-list">
+          <div>✦ Sifatli ta’lim</div>
+          <div>✦ Tajribali pedagoglar</div>
+          <div>✦ Iqtidorli yoshlar</div>
+          <div>✦ Zamonaviy yondashuv</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- MANAGEMENT -->
+<section class="section management-section" id="management">
+  <div class="container">
+
+    <div class="section-title">
+      <span>02 / LEADERSHIP</span>
+      <h2>Maktab <span>rahbariyati</span></h2>
+      <p>Maktab faoliyatini boshqaruvchi jamoa</p>
+    </div>
+
+    <div class="director-card">
+      <div class="director-symbol">46</div>
+      <div class="director-info">
+        <span class="small-label">MAKTAB DIREKTORI</span>
+        <h3>Aziza Haliliva</h3>
+        <p>
+          Maktabimizda sifatli ta’lim, tarbiya va
+          yoshlar kelajagi yo‘lida faoliyat olib boradi.
+        </p>
+        <div class="neon-line"></div>
+        <span class="role-caption">46-MAKTAB RAHBARIYATI</span>
+      </div>
+    </div>
+
+    <div class="management-grid">
+      <article class="person-card">
+        <div class="person-avatar">👨‍💼</div>
+        <span>DIREKTOR O‘RINBOSARI</span>
+        <h3>Qilichov Najim</h3>
+      </article>
+
+      <article class="person-card">
+        <div class="person-avatar">🧠</div>
+        <span>MAKTAB PSIXOLOGI</span>
+        <h3>Munira Buronova</h3>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+<!-- TEACHERS -->
+<section class="section" id="teachers">
+  <div class="container">
+
+    <div class="section-title">
+      <span>03 / OUR TEAM</span>
+      <h2>Fidoiy <span>ustozlar</span></h2>
+      <p>Kelajak avlodiga bilim berayotgan fidoyi pedagoglar</p>
+    </div>
+
+    <div class="teacher-grid">
+      <article class="teacher-card">
+        <div class="teacher-avatar">👨‍🏫</div>
+        <h3>Yusupov Suxrob</h3>
+        <p>Fidoiy ustoz</p>
+      </article>
+
+      <article class="teacher-card">
+        <div class="teacher-avatar">👨‍🏫</div>
+        <h3>Abdurashidov Rustam</h3>
+        <p>Fidoiy ustoz</p>
+      </article>
+
+      <article class="teacher-card">
+        <div class="teacher-avatar">👩‍🏫</div>
+        <h3>Sevinch Qobelova</h3>
+        <p>Fidoiy ustoz</p>
+      </article>
+    </div>
+
+    <div class="team-note">
+      <span>✦</span> Maktabimizda 70 ga yaqin pedagog faoliyat yuritadi.
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section education-section" id="education">
+  <div class="container">
+
+    <div class="section-title">
+      <span>04 / EDUCATION</span>
+      <h2>Ta’lim <span>imkoniyatlari</span></h2>
+      <p>Bilim olish va rivojlanish uchun imkoniyatlar</p>
+    </div>
+
+    <div class="education-grid">
+
+      <a href="https://kundalik.com/" target="_blank" rel="noopener" class="education-card">
+        <div class="card-icon">📚</div>
+        <h3>Elektron kundalik</h3>
+        <p>O‘quv jarayoni va baholar</p>
+        <span>OCHISH ↗</span>
+      </a>
+
+      <article class="education-card">
+        <div class="card-icon">🧪</div>
+        <h3>Fan olimpiadalari</h3>
+        <p>Bilim va iqtidor sinovlari</p>
+        <span>TA’LIM</span>
+      </article>
+
+      <article class="education-card">
+        <div class="card-icon">📖</div>
+        <h3>Kitobxonlik</h3>
+        <p>Mutolaa va ma’rifat</p>
+        <span>RIVOJLANISH</span>
+      </article>
+
+      <article class="education-card">
+        <div class="card-icon">💻</div>
+        <h3>Raqamli bilimlar</h3>
+        <p>Texnologiyalar va innovatsiyalar</p>
+        <span>KELAJAK</span>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section class="section news-section" id="news">
+  <div class="container">
+
+    <div class="section-title">
+      <span>05 / NEWS</span>
+      <h2>Maktab <span>yangiliklari</span></h2>
+      <p>46-MAKTAB hayotidagi muhim voqealar</p>
+    </div>
+
+    <div class="news-grid" id="newsGrid">
+
+      <article class="news-card">
+        <div class="news-image news-image-one">🏫</div>
+        <div class="news-content">
+          <span>46-MAKTAB</span>
+          <h3>Yangi o‘quv davri</h3>
+          <p>Maktabimizda ta’lim va tarbiya jarayonlari davom etmoqda.</p>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <div class="news-image news-image-two">🏆</div>
+        <div class="news-content">
+          <span>YUTUQLAR</span>
+          <h3>Bilim va intilish</h3>
+          <p>O‘quvchilarimizning bilim olishga bo‘lgan qiziqishi.</p>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <div class="news-image news-image-three">📚</div>
+        <div class="news-content">
+          <span>MAKTAB HAYOTI</span>
+          <h3>Ustoz va shogird</h3>
+          <p>Ta’lim va tarbiya yo‘lida hamkorlik.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <div class="container">
+
+    <div class="section-title">
+      <span>06 / GALLERY</span>
+      <h2>Foto <span>galereya</span></h2>
+      <p>46-MAKTAB hayotidan lavhalar</p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-card">
+        <div class="gallery-art art-one">🏫</div>
+        <span>MAKTABIMIZ</span>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-art art-two">📖</div>
+        <span>TA’LIM JARAYONI</span>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-art art-three">👨‍🎓</div>
+        <span>O‘QUVCHILAR</span>
+      </div>
+
+      <div class="gallery-card">
+        <div class="gallery-art art-four">🏆</div>
+        <span>YUTUQLAR</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+  <div class="container">
+
+    <div class="section-title">
+      <span>07 / CONTACT</span>
+      <h2>Biz bilan <span>bog‘laning</span></h2>
+      <p>46-MAKTAB manzili va aloqa ma’lumotlari</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <div class="contact-card">
+          <span>📍</span>
+          <div>
+            <small>MANZIL</small>
+            <h3>Samarqand viloyati, Nurobod tumani, Jarquduq qishlog‘i</h3>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <span>🏫</span>
+          <div>
+            <small>MUASSASA</small>
+            <h3>46-umumiy o‘rta ta’lim maktabi</h3>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <span>🎓</span>
+          <div>
+            <small>ELEKTRON KUNDALIK</small>
+            <h3><a href="https://kundalik.com/" target="_blank" rel="noopener">Kundalik.com ↗</a></h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-message">
+        <div class="contact-big-number">46</div>
+        <h3>BILIM — KELAJAK POYDEVORI</h3>
+        <p>46-MAKTAB — bilim va tarbiya maskani.</p>
+      </div>
+
+    </div>
+
+    <div class="map-box">
+      <iframe
+        title="46-MAKTAB manzili"
+        src="https://maps.google.com/maps?q=Jarquduq%2C%20Nurobod%2C%20Samarqand%2C%20Uzbekistan&z=13&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+
+    <div class="footer-brand">
+      <div class="brand-logo">46</div>
+      <div>
+        <h2>46-MAKTAB</h2>
+        <p>FUTURISTIC SCHOOL</p>
+      </div>
+    </div>
+
+    <p class="footer-slogan">BILIM BILAN KELAJAK SARI!</p>
+
+    <div class="footer-bottom">
+      <p>Sayt yaratuvchisi: <strong>Nurjovov Sayilxon</strong></p>
+      <p>© <span id="year">2026</span> 46-MAKTAB. Barcha huquqlar himoyalangan.</p>
+    </div>
+
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Yuqoriga">↑</button>
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
